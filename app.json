@@ -32,16 +32,6 @@
       "value": "",
       "required": false
     },
-    "SUDO_COMMAND_HAND_LER": {
-      "description": "Please enter sudo user command handler",
-      "value": ",",
-      "required": false
-    },
-    "COMMAND_HAND_LER": {
-      "description": "U can Change Ur command Handler By Default it is (.)",
-      "value": ".",
-      "required": true
-      },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
       "value": ""
@@ -71,16 +61,6 @@
     "BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
       "value": ""
-    },
-    "NO_OF_BUTTONS": {
-      "description": " Set The Amount Of Buttons Displayed In legend Command default 7",
-      "value": "7",
-      "required": true
-    },
-    "NO_OF_COLUMNS": {
-      "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
-      "value": "2",
-      "required": true
     },
     "PM_DATA": {
       "description": "Type DISABLE if you want to disable pm protection... ",
