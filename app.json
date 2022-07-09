@@ -18,31 +18,6 @@
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "Lêɠêɳ̃dẞøY",
-      "required": false
-    },
-    "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† is Online",
-      "required": false
-    },
-    "ABUSE": {
-      "description": " Set ON or OFF",
-      "value": "",
-      "required" :true
-    },
-    "EXTRA_PLUGIN": {
-      "description": "Set ON or OFF",
-      "value": "",
-      "required" :true
-    },
-    "SPAM": {
-      "description": "Set ON or OFF",
-      "value": "",
-      "required" :true
-    },
     "ASSISTANT": {
       "description": "Set ON or OFF",
       "value": "",
@@ -56,51 +31,6 @@
     "YOUR_CHANNEL": {
       "description": "Set Ur Channel Username",
       "value": "@Official_LegendBot",
-      "required": false
-    },
-    "BOY_OR_GIRL": {
-      "description": "Set Boy Or Girl",
-      "value": "Boy",
-      "required": false
-    },
-    "AWAKE_PIC": {
-      "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
-      "value": "",
-      "required": false
-    },
-    "OP_PIC": {
-      "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "",
-      "required": false
-    },
-    "PING_PIC": {
-      "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_PIC": {
-      "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_EMOJI": {
-      "description": "Put here any emoji. Which Will be Show When U Do .alive.",
-      "value": "",
-      "required": false
-    },
-    "BIO_MSG": {
-      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
-      "required": true
-    },
-    "PM_PIC": {
-      "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "",
-      "required": false
-    },
-    "PM_MSG": {
-      "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
@@ -171,16 +101,6 @@
       "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
       "value": "2",
       "required": true
-    },
-    "EMOJI_IN_HELP1": {
-      "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
-      "required": false
-    },
-    "EMOJI_IN_HELP2": {
-      "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
-      "required": false
     },
     "PM_DATA": {
       "description": "Type DISABLE if you want to disable pm protection... ",
