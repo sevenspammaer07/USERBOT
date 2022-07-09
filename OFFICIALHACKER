@@ -5,10 +5,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $LEGEND_REPO == "LEGENDBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL1VTUi9hcmNoaXZlL3JlZnMvaGVhZHMvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $LEGEND_REPO == "LEGENDBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL1VTUi9hcmNoaXZlL3JlZnMvaGVhZHMvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $LEGEND_REPO =~ $regex ]]
     then
         if [[ $LEGEND_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${LEGEND_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL1VTUi9hcmNoaXZlL3JlZnMvaGVhZHMvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
@@ -36,9 +36,9 @@ _setting_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $LEGENDPATH
-    echo "    ⚜️Starting Lêɠêɳ̃dẞø†⚜️     "
+    echo "    ⚜️Starting Userbot ⚜️     "
     echo "
-    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    💫💫💫💫💫💫💫💫💫💫
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
