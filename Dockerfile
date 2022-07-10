@@ -4,7 +4,7 @@ FROM TEAM-D3VIL/D3vilBot:latest
 RUN git clone https://github.com/OFFICIALHACKERERA/USR.git /root/hellbot
 
 #working directory 
-WORKDIR /root/d3vilbot
+WORKDIR /root/userbot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
