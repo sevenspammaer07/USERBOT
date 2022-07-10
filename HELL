@@ -54,7 +54,7 @@ _starter () {
     cd $HELLPATH
     # _HELLBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    echo "••• STARTING HELLBOT •••"
+    echo "••• ♥️STARTING HELLBOT ♥️•••"
     python3 -m hellbot
 }
 
