@@ -1,1 +1,1 @@
-worker: bash OFFICIALHACKER
+worker: bash HELL
