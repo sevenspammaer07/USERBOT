@@ -9,7 +9,7 @@ _HELLBOT_MAIN() {
     $(_python_ 'from git import Repo
 import sys
 
-_UPSTREAM_ = "https://github.com/OFFICIALHACKERERA/PLUGINSS"
+_UPSTREAM_ = "https://github.com/OFFICIALHACKERERA/plugins"
 _BRANCH_ = "master"
 
 repo = Repo.init()
@@ -21,12 +21,12 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _hell_repo () {
     local hrepo
-    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL1BMVUdJTlNT" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL3BsdWdpbnM=" | base64 -d`
     echo "$rlink"
 }
 
 _hell_zip () {
-    echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL1BMVUdJTlNTL2FyY2hpdmUvcmVmcy9oZWFkcy9tYXN0ZXIuemlw" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL09GRklDSUFMSEFDS0VSRVJBL3BsdWdpbnMvYXJjaGl2ZS9yZWZzL2hlYWRzL21hc3Rlci56aXA=" | base64 -d
 }
 
 _HELLBOT_PLUG() {
@@ -55,7 +55,7 @@ _starter () {
     # _HELLBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     echo "💫Starting Userbot... •••"
-    python3 -m USERBOT
+    python3 -m hellbot
 }
 
 _starter
